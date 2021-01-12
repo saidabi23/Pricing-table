@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pricing Table</title>
+</head>
+
+<body>
+    <div class="top-banner">
+        <p class="current-plan"> Your current Plan</p>
+        <p class="plan-type"> Starter Trial . 6FRU0mS</p>
+    </div>
+    <div class="container">
+        <h1 class="title">Choose a plan</h1>
+        <div class="toggle-switch">
+            <span>Per User </span>
+            <input type="checkbox" class="toggler">
+            <span> Per Month </span>
+        </div>
+    </div>
+    
+    <div class="cards">
+
+            <!-- Starter Plan -->
+        <div class="card" id="card-1">
+            <h1 class="card-title">Starter</h1>
+            <h2 class="card-price" id="starter-price"> $0<span> / month</span> </h2>
+            <ul class="card-plan">
+                <li>Centralized teams</li>
+                <li>Version History</li>
+                <li>Plugin Administration</li>
+            </ul>
+            <button type="button" class="card-btn">Go Starter</button>
+        </div>
+        <!-- Pro Plan -->
+        <div class="card active" id="card-2">
+            <h1 class="card-title">Professional</h1>
+            <h2 class="card-price" id="pro-price"> $25 <span> / month</span> </h2>
+            <ul class="card-plan">
+                <li>Centralized teams</li>
+                <li>Version History</li>
+                <li>Plugin Administration</li>
+                <li>Facebook & Instagram ads</li>
+            </ul>
+            <button type="button" class="card-btn">Go Professional</button>
+        </div>
+            <!-- organization card -->
+        <div class="card" id="card-3">
+            <h1 class="card-title">Organization</h1>
+            <h2 class="card-price">$50 <span> / month</span></h2>
+            <ul class="card-plan">
+                <li>Centralized teams</li>
+                <li>Version History</li>
+                <li>Plugin Administration</li>
+                <li>Facebook & Instagram ads</li>
+                <li> Design System Analytics</li>
+                <li>Unlimited Cloud Storage</li>
+            </ul>
+            <button type="button" class="card-btn">Go Organization</button>
+        </div>
+    </div> 
+ <script src="main.js"></script>
+</body>
+</html>
