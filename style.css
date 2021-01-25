@@ -33,6 +33,9 @@ body{
   transform: translateX(-50%);
   text-align: center;
   border-radius: 0 0 10px 10px;
+  margin-top: 10px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 p.current-plan {
@@ -49,11 +52,12 @@ p.plan-type {
   text-align: center;
   width: 1100px;
   height: 60%;
+  margin-top: 110px;
 }
 
 h1.title {
-  letter-spacing: 2px;
-  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
 }
 
 .toggle-switch{
@@ -115,6 +119,7 @@ h1.title {
     font-size: 1.5rem;
     font-weight: lighter;
     margin-bottom: 1rem;
+}
 
 .card-price{
     font-size: 3rem;
@@ -126,7 +131,7 @@ h2>span{
 }
 
 #card-3 .card-price{
-    font-size: 2rem;
+    font-size: 3rem;
 } 
 
 #card-1 .card-price{
@@ -157,7 +162,7 @@ h2>span{
     color:white;
     font-size: 1rem;
     padding: 1rem;
-    border-radius: 35px;
+    border-radius: 30px;
 }
 
 #card-1 .card-btn:hover, 
@@ -166,6 +171,18 @@ h2>span{
 {
     background-color: #bc1e4a;
 }
+
+#maus{
+  background: transparent;
+  color:white;
+  border-color: #545c5c;
+  margin-top: 1rem;
+  width: 100%;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
 option{
     font-size: 1.2rem;
     background-color: #333;
@@ -187,26 +204,40 @@ option{
     margin-top: 7.5rem;
 }
 
-@media (max-width:848px){
-.card{
-    width:50%
+@media (max-width:1112px){
+    .cards{
+        justify-content: center;
+    }
+
+    .card{
+        width: 40%;
+    margin: 2rem;
+    }
 }
+
+@media (max-width:848px){
+    .card{
+        width:50%
+    }
 }
 
 @media (max-width:674px){
-.top-banner{
-    width: 70%;
-}
-.card{
-    width: 70%;
-}
+    .top-banner{
+        width: 70%;
+    }
+    .card{
+        width: 70%;
+    }
 }
 
 @media (max-width:500px){
-.top-banner{
-    width: 90%;
-}
-.card {
-    width: 90%;
-}
+    .top-banner{
+        width: 90%;
+    }
+
+
+
+    .card{
+        width: 90%;
+    }
 }
